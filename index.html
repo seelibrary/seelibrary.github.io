@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Сіверська бібліотека для дітей</title>
+</head>
+
+<body>
+    <header>
+        <!-- Desktop, tablet -->
+        <nav class="nav_desktop">
+            <img src="/images/logo.png" alt="logo">
+            <div><a href="/index.html">Головна</a></div>
+            <div><a href="/index.html">Галерея</a></div>
+            <div><a href="/index.html#about">Про нас</a></div>
+            <div><a href="/comments.html">Відгуки</a></div>
+            <div><a href="/index.html#contacts">Контакти</a></div>
+        </nav>
+        <svg class="desktop" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <linearGradient id="linear-gradient-d">
+                <stop offset="0%" stop-color="#FF9000"/>
+                <stop offset="35%" stop-color="#FF6E00"/>
+                <stop offset="65%" stop-color="#FF4800"/>
+                <stop offset="100%" stop-color="#ff5100"/>
+            </linearGradient>
+            <path fill="url(#linear-gradient-d)" d="M-6.54,63.45 C150.00,150.00 271.49,-49.99 504.74,84.17 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none;"></path>
+        </svg>
+        <!-- Phone -->
+        <nav class="nav_phone">
+            <div class="img"><img src="/images/logo.png" alt="logo" class="menu__item"></div>
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li class="menu__item"><a href="/index.html">Головна</a></li>
+                <li class="menu__item"><a href="/index.html">Галерея</a></li>
+                <li class="menu__item"><a href="/index.html#about">Про нас</a></li>
+                <li class="menu__item"><a href="/comments.html">Відгуки</a></li>
+                <li class="menu__item"><a href="/index.html#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <svg class="phone" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <linearGradient id="linear-gradient-p">
+                <stop offset="0%" stop-color="#FF9000"/>
+                <stop offset="35%" stop-color="#FF6E00"/>
+                <stop offset="65%" stop-color="#FF4800"/>
+                <stop offset="100%" stop-color="#ff5100"/>
+            </linearGradient>
+            <path fill="url(#linear-gradient-p)" d="M-6.54,63.45 C150.00,150.00 271.49,-49.99 504.74,84.17 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none;"></path>
+        </svg>
+    </header>
+    <main>
+        <section class="head">
+            <h1>Сіверська бібліотека для дітей</h1>
+        </section>
+        <div class="schedule">
+            <h3>Графік роботи</h3>
+            <ul>
+                <li><pre>Пн  -    зачинено    </pre></li>
+                <li><pre>Вт - 10:00 - 18:00</pre></li>
+                <li><pre>Ср   - 10:00 - 18:00</pre></li>
+                <li><pre>Чт - 10:00 - 18:00</pre></li>
+                <li><pre>Пт - 10:00 - 18:00</pre></li>
+                <li><pre>Сб   - 09:00 - 17:00</pre></li>
+                <li><pre>Нд  -    зачинено    </pre></li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path>
+        </svg>
+        <section class="info">
+            <div id="contacts" class="contacts">
+                <h3>Контактна інформація</h3>
+                <p>Бібліотека для дітей, вул. Садова, №40, <br> м. Сіверськ, Донецька обл., Україна, 84523</p>
+                <span><img src="/images/phone-call.svg" alt="" class="contacts-img"></span>
+                <span>+38 (0956) 91-07-02 </span>
+                <br>
+                <span><img src="/images/mail.svg" alt="" class="contacts-img"></span>
+                <span><a href="mailto:renatseverski@gmail.com">renatseverski@gmail.com</a></span>
+            </div>
+            <div class="soc-net">
+                <h3>Ми у соціальному просторі</h3>
+                <p>
+                    Слідкуйте за нами через мережі та будьте в курсі останніх новин:
+                </p>
+                <span><a href="https://www.facebook.com/Siversklibraryforchildren/" target="_blank"><img src="/images/facebook.svg" alt="facebook" class="soc-img"></a></span>
+                <span><a href="https://www.instagram.com/siverska_biblioteka/" target="_blank"><img src="/images/instagram.svg" alt="instagram" class="soc-img"></a></span>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2077500313167!2d38.10912381550829!3d48.873316007609944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41200a958179abc1%3A0x2b05c1d6d841ae80!2z0KHQhtCS0JXQoNCh0KzQmtCQINCR0IbQkdCb0IbQntCi0JXQmtCQINCU0JvQryDQlNCG0KLQldCZ!5e0!3m2!1suk!2sua!4v1602171085967!5m2!1suk!2sua"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </section>
+        <hr>
+        <div class="copyright">
+            <span class="copyright">Copyright &copy; 2020
+                <script>new Date().getFullYear() > 2020 && document.write("- " + new Date().getFullYear());</script>,
+                sbd. All rights reserved.
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
